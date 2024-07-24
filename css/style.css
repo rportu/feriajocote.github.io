@@ -1,0 +1,179 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #ee6e73;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+
+ .parallax img 
+ {
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ }
+ .parallax-container
+ {
+ 	color: black;
+ }
+ @media only screen and (max-width : 600px) {
+  .parallax-container
+ {
+ 	color: white;
+ }
+}
+ nav a.button-collapse
+ {
+ 	color:black;
+ }
+ .purple.lighten-1 {
+  background-color: #CC0066 !important;
+}
+
+.verde.lighten-1 {
+  background-color: #7AB730 !important;
+}
+
+body {
+  background-color: #401F11;
+}
+
+.cafe.lighten-1 {
+  background-color: #29150D !important;
+}
+.cafe2.lighten-1 {
+  background-color: #401F11 !important;
+}
+.teal-text.text-lighten-2 {
+  color: #7AB730 !important;
+}
+
+.teal-text.text-lighten-3 {
+  color: #29150D !important;
+}
+
+.teal-text.text-lighten-4 {
+  color: #ffffff !important;
+}
+
+.text-blanco {
+  color: #ffffff !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bordered-text {
+  text-shadow: 
+      -2px -2px 0 #4D2919,
+      2px -2px 0 #4D2919,
+      -2px 2px 0 #4D2919,
+      2px 2px 0 #4D2919;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(64, 31, 17, 0.5); /* Color café oscuro con transparencia */
+}
+
+.container {
+  position: relative; /* Asegura que los elementos dentro de .container se posicionen relativo a este contenedor */
+  z-index: 1; /* Asegura que los elementos dentro de .container estén por encima del overlay */
+}
+
+.center {
+  position: relative; /* Asegura que los elementos con clase .center se posicionen relativo a su contenedor padre */
+  z-index: 2; /* Asegura que los elementos con clase .center estén por encima del overlay */
+}
+
+
+.rounded-img {
+  border-radius: 50%;
+  width: 200px; /* Puedes ajustar el tamaño según sea necesario */
+  height: 200px; /* Asegúrate de que el ancho y la altura sean iguales para mantener la forma circular */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor circular */
+}
+
+.rounded-img-menu {
+  border-radius: 50%;
+  width: 60px; /* Tamaño por defecto */
+  height: 60px; /* Tamaño por defecto */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor circular */
+}
+
+.img-fixed {
+  width: 500px; /* Establece el ancho fijo para todas las imágenes */
+  height: 500px; /* Mantiene la proporción de la imagen */
+}
+
+@media only screen and (max-width: 600px) {
+  .rounded-img-menu {
+    width: 30px; /* Tamaño ajustado para pantallas pequeñas */
+    height: 30px; /* Tamaño ajustado para pantallas pequeñas */
+  }
+}
+
+
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
+nav
+{
+	overflow: visible;
+}
+nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
