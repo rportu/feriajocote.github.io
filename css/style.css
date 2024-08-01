@@ -46,7 +46,14 @@ footer.page-footer {
   margin: 0;
 }
 
-
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+li img {
+  margin-right: 10px; /* Espacio entre el logo y el texto */
+}
 
 
  .parallax img 
